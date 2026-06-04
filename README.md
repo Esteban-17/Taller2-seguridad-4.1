@@ -16,7 +16,7 @@ El ejercicio forma parte de una auditoría simulada cuyo objetivo es evidenciar,
 de forma cuantitativa, por qué este esquema de almacenamiento se considera
 obsoleto para proteger contraseñas.
 
-> ⚠️ **Uso exclusivamente académico.** Este código se desarrolló como parte de
+> **Uso exclusivamente académico.** Este código se desarrolló como parte de
 > un trabajo universitario. Úsalo únicamente sobre datos propios o de prueba.
 
 ---
@@ -76,13 +76,13 @@ python crack_des.py
 ====================================================================
 HASH            LARGO  CLAVE         ALFABETO        TIEMPO
 --------------------------------------------------------------------
-ok/gej3.yEFeI   3      sol           minusculas      0.14s
-Aa40nuCvdYzJA   3      TiC           minus+mayus     1.48s
+ok/gej3.yEFeI   3      sol           minusculas      3.1s
+Aa40nuCvdYzJA   3      TiC           minus+mayus     25.48s
 k+FCC/vC42ryg   3      NO RECUPERADA SAL_INVALIDA    0.00s
-2K8b.xipQrzNg   3      14#           completo        8.85s
-kot8Y1NRfX2.w   4      alex          minusculas      0.07s
-4aibIYop66j9w   5      peace         minusculas      69.54s
-UPUKXy9WwFGYI   4      UPTC          minus+mayus     70.29s
+2K8b.xipQrzNg   3      14#           completo        148.85s
+kot8Y1NRfX2.w   4      alex          minusculas      8.07s
+4aibIYop66j9w   5      peace         minusculas      852.54s
+UPUKXy9WwFGYI   4      UPTC          minus+mayus     932.29s
 ```
 
 *(Los tiempos varían según el equipo.)*
@@ -125,4 +125,4 @@ extensas.
 
 ## Autor
 
-Daniel — Ingeniería de Sistemas y Computación, UPTC.
+Daniel Benavides — Ingeniería de Sistemas y Computación, UPTC.
